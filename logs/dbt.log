@@ -1,0 +1,49 @@
+[0m19:20:56.524917 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B6256BC370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B6269ABC10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B6269ABE20>]}
+
+
+============================== 19:20:56.544473 | 3b88ad8a-2fe7-4093-818e-9f754b65c70e ==============================
+[0m19:20:56.544473 [info ] [MainThread]: Running with dbt=1.10.21
+[0m19:20:56.548481 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'debug': 'False', 'log_cache_events': 'False', 'send_anonymous_usage_stats': 'True', 'cache_selected_only': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_format': 'default', 'no_print': 'None', 'version_check': 'True', 'empty': 'None', 'printer_width': '80', 'partial_parse': 'True', 'log_path': 'logs', 'quiet': 'False', 'warn_error': 'None', 'write_json': 'True', 'introspect': 'True', 'invocation_command': 'dbt init shop_dbt', 'target_path': 'None', 'static_parser': 'True', 'profiles_dir': 'C:\\Users\\Fosko\\.dbt', 'use_experimental_parser': 'False', 'use_colors': 'True', 'indirect_selection': 'eager'}
+[0m19:20:56.708497 [debug] [MainThread]: Starter project path: C:\Users\Fosko\Documents\itc6050-w1-lab\.venv\lib\site-packages\dbt\include\starter_project
+[0m19:20:56.953825 [info ] [MainThread]: 
+Your new dbt project "shop_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:20:56.957820 [info ] [MainThread]: Setting up your profile.
+[0m19:24:03.680945 [info ] [MainThread]: Profile shop_dbt written to C:\Users\Fosko\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:24:03.683940 [debug] [MainThread]: Command `dbt init` succeeded at 19:24:03.683940 after 187.64 seconds
+[0m19:24:03.685940 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B6256BC370>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B626984790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B6269ABEE0>]}
+[0m19:24:03.687070 [debug] [MainThread]: Flushing usage events
+[0m19:24:04.512316 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:30:28.901599 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228A595C340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228A6C4CD00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228A6C4CE20>]}
+
+
+============================== 19:30:28.913957 | a94b235e-c73e-4989-902d-6802c7ca3bd4 ==============================
+[0m19:30:28.913957 [info ] [MainThread]: Running with dbt=1.10.21
+[0m19:30:28.917958 [debug] [MainThread]: running dbt with arguments {'debug': 'False', 'fail_fast': 'False', 'log_cache_events': 'False', 'send_anonymous_usage_stats': 'True', 'cache_selected_only': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_format': 'default', 'no_print': 'None', 'version_check': 'True', 'empty': 'None', 'printer_width': '80', 'quiet': 'False', 'log_path': 'logs', 'partial_parse': 'True', 'warn_error': 'None', 'write_json': 'True', 'target_path': 'None', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'profiles_dir': 'C:\\Users\\Fosko\\Documents\\itc6050-w4-lab', 'use_experimental_parser': 'False', 'use_colors': 'True', 'indirect_selection': 'eager'}
+[0m19:30:28.970066 [info ] [MainThread]: dbt version: 1.10.21
+[0m19:30:28.972036 [info ] [MainThread]: python version: 3.9.17
+[0m19:30:28.973360 [info ] [MainThread]: python path: C:\Users\Fosko\Documents\itc6050-w1-lab\.venv\Scripts\python.exe
+[0m19:30:28.975496 [info ] [MainThread]: os info: Windows-10-10.0.26200-SP0
+[0m19:30:29.137526 [info ] [MainThread]: Using profiles dir at C:\Users\Fosko\Documents\itc6050-w4-lab
+[0m19:30:29.139516 [info ] [MainThread]: Using profiles.yml file at C:\Users\Fosko\Documents\itc6050-w4-lab\profiles.yml
+[0m19:30:29.141525 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Fosko\Documents\itc6050-w4-lab\dbt_project.yml
+[0m19:30:29.143043 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m19:30:29.146156 [debug] [MainThread]: Command `dbt debug` failed at 19:30:29.145229 after 0.50 seconds
+[0m19:30:29.147203 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228A595C340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228A6D7FFD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000228A6C15250>]}
+[0m19:30:29.148351 [debug] [MainThread]: Flushing usage events
+[0m19:30:29.840686 [debug] [MainThread]: An error was encountered while trying to flush usage events
